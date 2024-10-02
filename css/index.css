@@ -1,0 +1,63 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 350px 1180px 350px;
+    grid-template-rows: 200px 60px 550px 120px;
+    grid-template-areas: 
+    'enc enc enc'
+    'enla enla enla'
+    'for con inf'
+    'pie pie pie'
+    
+    ;
+}
+header{
+    background-color: gold;
+    grid-area: enc;
+}
+.enc{
+    width: 1880px;
+    height: 200px;
+}
+#enla{
+    background-color: rgb(172, 191, 224);
+    grid-area: enla;
+}
+aside{
+    background-color: rgb(151, 218, 219);
+    grid-area: for;
+}
+#con{
+    background-color: rgb(226, 175, 156);
+    grid-area: con;
+}
+.img1{
+    width: 550px;
+    height: 550px;
+}
+.margen{
+    text-align: center;
+}
+#inf{
+    background-color: rgb(193, 248, 193);
+    grid-area: inf;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    grid-area: pie;
+}
+h2{
+    color:  white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#pagi{
+    text-align: center;
+}

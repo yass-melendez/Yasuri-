@@ -1,0 +1,61 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 630px 630px 630px;
+    grid-template-rows: 200px 60px 550px 120px;
+    grid-template-areas:
+        'enc enc enc'
+        'enla enla enla'
+        'misi visi foto'
+        'pie pie pie'
+    ;
+}
+
+header{
+    background-color: aqua;
+    grid-area: enc;
+}
+#enc{
+    width: 1880px;
+    height: 200px;
+}
+#enla{
+    background-color: rgb(172, 200, 248);
+    grid-area: enla;
+}
+#misi{
+    background-color: rgb(151, 218, 219);
+    grid-area: misi;
+}
+h3{
+    color: brown;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#visi{
+    background-color: rgb(226, 175, 156);
+    grid-area: visi;
+}
+#foto{
+    background-color: rgb(193, 248, 193);
+    grid-area: foto;
+}
+footer{
+    background-color: black;
+    grid-area: pie;
+}
+h2{
+    color:  white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#pagi{
+    text-align: center;
+}
+#img4{
+    width: 450px;
+    height: 400px;
+}

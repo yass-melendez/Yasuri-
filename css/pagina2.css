@@ -1,0 +1,58 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 630px 630px 630px;
+    grid-template-rows: 200px 60px 550px 120px;
+    grid-template-areas:
+    'enc enc enc'
+    'enla enla enla'
+    'dia foda for'
+    'pie pie pie'
+    ;
+}
+header{
+    background-color: aqua;
+    grid-area: enc;
+}
+#enc{
+    width: 1890px;
+    height: 200px;
+}
+#pag{
+    background-color: rgb(172, 200, 248);
+    grid-area: enla;
+}
+#dia{
+    background-color: rgb(151, 218, 219);
+    grid-area: dia;
+}
+.img2{
+    width: 450px;
+    height: 400px;
+}
+.margen{
+    text-align: center;
+}
+#foda{
+    background-color: rgb(226, 175, 156);
+    grid-area: foda;
+}
+.img3{
+    width: 450px;
+    height: 400px;
+}
+aside{
+    background-color: rgb(193, 248, 193);
+    grid-area: for;
+}
+footer{
+    background-color: black;
+    grid-area: pie;
+}
+h2{
+    color:  white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#pagi{
+    text-align: center;
+}
